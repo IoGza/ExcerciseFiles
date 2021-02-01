@@ -21,7 +21,7 @@ print(sampleDict["class"]["student"]["marks"]["history"])
 
 dict={"son's name": "Lucas", "son's eyes": "green", "son's height": 32, "son's weight": 25}
 
-dict["son's height"] = 34
+dict["son's height"] +=2
 
 print(dict)
 
@@ -48,5 +48,6 @@ print(sampleDict)
 dict={"name": "Plato", "country": "Ancient Greece", "born": -427, "teacher": "Socrates", "student": "Aristotle"}
 
 
-dict["work"] = "Apology", "Phaedo", "Republic", "Symposium"
+dict["work"] = ["Apology", "Phaedo", "Republic", "Symposium"]
 print(dict)
+
